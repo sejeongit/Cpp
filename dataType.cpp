@@ -30,7 +30,10 @@ int main() {
     // float f = 10.2415f + 20; (X)
     float f = 10.2415f + (float)20;
     
-    
+    // 실수를 상수로 적을 경우 실수 맨 뒷자리에 f를 붙이면 float 자료형으로, f를 붙이지 않으면 double 자료형으로 간주한다.
+    // 0.1f : float
+    // 0.1  : double
+
     return 0;
 }
 
